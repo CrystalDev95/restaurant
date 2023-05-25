@@ -1,5 +1,5 @@
 import React from 'react'
-import ValueContainer from '../components/utils/valueContainer'
+import ValueContainer from '../components/utils/ValueContainer'
 
 const Values = ({values}) => {
   return (
