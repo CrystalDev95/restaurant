@@ -1,6 +1,6 @@
 import React from 'react'
 import Lottie from "lottie-react";
-import Wiggle from '../../assets/animation/Wiggle.json'
+import Wiggle from '../../assets/animation/wiggle.json'
 
 const WiggleLine = () => {
     return (
