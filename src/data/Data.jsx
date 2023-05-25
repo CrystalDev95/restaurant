@@ -13,7 +13,7 @@ import story3 from '../assets/images/story3.jpg'
 import story4 from '../assets/images/story4.jpg'
 import story5 from '../assets/images/story5.jpg'
 import story6 from '../assets/images/story6.jpg'
-import { RiCustomerService2Line } from 'react-icons/Ri'
+import { RiCustomerService2Line } from 'react-icons/ri'
 import { MdOutlineRateReview, MdPhoneInTalk } from 'react-icons/md'
 import { TiTickOutline } from 'react-icons/ti'
 
