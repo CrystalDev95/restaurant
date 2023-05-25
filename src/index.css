@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-theme {
+    background-image: linear-gradient( 0.2deg,  rgb(104, 104, 104) 4.8%, rgb(51, 51, 51) 85.5% );
+  }
+
+  .blur-effect-theme {
+    @apply bg-black backdrop-filter backdrop-blur bg-opacity-50 opacity-100 shadow-sm;
+  }
+
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+ 
