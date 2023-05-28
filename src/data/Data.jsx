@@ -134,26 +134,6 @@ export const values = [
   },
 ]
 
-export const buttons = [
-  {
-    title: "All"
-  },
-  {
-    title: "Signature"
-  },
-  {
-    title: "Rice"
-  },
-  {
-    title: "Stew"
-  },
-  {
-    title: "Noodles"
-  },
-  {
-    title: "Sides"
-  },
-]
 
 
 export const menu2 = [

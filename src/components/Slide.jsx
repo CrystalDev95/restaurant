@@ -31,9 +31,9 @@ const splideOptions = {
       <div className={`h-auto w-screen bg-cover bg-center selection:shadow-xl bg-[url('/images/heroimg.jpg')] ${ifExists && 'bg-none bg-gray-800'}`}>
       <div className="w-full h-full py-10 md:py-5 sm:py-0 backdrop-brightness-50">
         <div className="p-20 lg:p-10 md:p-8">
-          <div className={`flex gap-5 xsm:gap-2 ${ ifExists && 'justify-end'}`}>
-        <h1 className="text-5xl md:text-4xl sm:text-3xl xsm:text-2xl text-red-600 font-extrabold">{title}</h1>
-        <h1 className="text-5xl md:text-4xl sm:text-3xl xsm:text-2xl text-white font-extrabold">{subtitle}</h1>
+          <div className={`flex gap-5 sm:gap-2 md:justify-center ${ ifExists && 'justify-end md:justify-center'}`}>
+        <h1 className="text-5xl md:text-4xl sm:text-2xl xsm:text-2xl text-red-600 font-extrabold">{title}</h1>
+        <h1 className="text-5xl md:text-4xl sm:text-2xl xsm:text-2xl text-white font-extrabold">{subtitle}</h1>
           </div>
         <div className="mt-20 md:mt-10">
           <Splide options={splideOptions}>

@@ -13,7 +13,7 @@ const Navbar = ({heroapi: {socialLinks}}) => {
       <Link to="/"><p>DDM</p></Link>
       </div>
       <div className="absolute right-10 flex md:hidden">
-        <ul className="flex gap-5">
+        <ul className="flex gap-5 md:gap-0">
         <li className="duration-200 hover:scale-110">About</li>
           <Link to="/menu"><li className="duration-200 hover:scale-110">Menu</li></Link>
           <li className="duration-200 hover:scale-110">Contact</li>
@@ -29,8 +29,8 @@ const Navbar = ({heroapi: {socialLinks}}) => {
           )}
         </div>
 
-        <div className={mobileMenu ? `fixed top-0 right-0 w-[80vw] h-full font-white bg-black blur-effect-theme transition translate-x-0 ease-in-out duration-1000` : `translate-x-full`}>
-        <ul className="absolute top-20 left-10 flex flex-col mt-5 lg:text-md md:text-md xsm:text-sm gap-8 ">
+        <div className={mobileMenu ? `fixed top-0 right-0 w-[60vw] h-full font-white bg-black blur-effect-theme transition translate-x-0 ease-in-out duration-1000` : `translate-x-full`}>
+        <ul className={mobileMenu ? `absolute top-20 left-10 flex flex-col mt-5 lg:text-md md:text-md xsm:text-sm gap-8` : `hidden`}>
           <li className="duration-200 hover:scale-110">About</li>
           <li className="duration-200 hover:scale-110">Menu</li>
           <li className="duration-200 hover:scale-110">Booking</li>

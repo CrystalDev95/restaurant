@@ -4,6 +4,7 @@ import { Hero, About, Slide, Values, Footer } from '../components'
 import { heroapi, aboutapi, menu, stories, values, contact} from '../../src/data/Data.jsx'
 
 const HomePage = () => {
+
   return (
     <main>
       <Navbar heroapi={heroapi} />
