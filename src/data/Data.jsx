@@ -138,38 +138,38 @@ export const values = [
 
 export const menu2 = [
     {
-      title: "Budae Jjigae (부대찌개)",
-      text: "Jordan Brands signature model for the past few years, Jayson Tatum will be dawning the Air Jordan 37 this season before attaining potentially his first signature sneaker with Jumpman, which he rumored to be in the works recently via his Twitter.",
+      title: "Rice Cake (떡볶이)",
+      text: "text",
       img: story1,
-      category: "Stew"
+      category: "Signature"
+    },
+    {
+      title: "Buldak (불닭)",
+      text: "text",
+      img: story2,
+      category: "Signature"
     },
     {
       title: "NengMyun (냉면)",
-      text: "Arriving right time for the Fall, this upcoming take on the Zoom Freak 4 seemingly draws inspiration from Thanksgiving. Orange and brown, two staples of the holiday, are used throughout the upper, dressing the parts not bathed in shades of grey.",
-      img: story2,
+      text: "text",
+      img: story3,
       category: "Noodles"
     },
     {
-      title: "Bibimbap (비빔밥)",
-      text: "The Nike Air Max Plus has enjoyed the reveal of several colorways these last few of months. And as we officially embark on the Fall season, an additional set have been added to the calendar, including this newly-revealed grey and orange colorway.",
-      img: story3,
-      category: "Rice"
-    },
-    {
-      title: "Ddeokbbokki (떡볶이)",
-      text: "Air Jordan Retro High OG popular series of AJ1s with the popular color-blocking with the original Yellow Toe flavor. The colorway was revealed back PE by musician Zach Myers, nearly four years later, Jordan fanatics will finally get their shot a GR release.",
+      title: "Jokbal (족발)",
+      text: "text",
       img: story4,
       category: "Signature"
     },
     {
       title: "Kimchi Jjigae (김치찌개)",
-      text: "The Bred coloryway of Zoom GT Cut 2 will be first to release this Friday, For Nike Members Nation World Wide while Sabrina Ionescus colorway is set for an October 13th release date. In the meantime, enjoy official images of both colorways below.",
+      text: "text",
       img: story5,
       category: "Stew"
     },
     {
       title: "Jeongol (전골)",
-      text: "For the first time in over a decade, a signature basketball silhouette is being made for one of the WNBA’s best and brightest stars, Olympic Gold Medalist and Seattle Storm superstar Breanna Stewart. Puma Stewie 1 Quiet Fire will be available this Friday.",
+      text: "text",
       img: story6,
       category: "Stew"
     }
