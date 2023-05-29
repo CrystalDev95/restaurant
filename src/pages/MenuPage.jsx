@@ -48,7 +48,7 @@ useEffect(() => {
 
           <div className="mt-32 sm:mt-16 mx-20 xl:mx-10 md:mx-0 gap-10 xl:gap-5 md:gap-3 grid place-items-center grid-cols-4 xl:grid-cols-3 lg:grid-cols-2">
             {
-              filtered.length === 0 ? <p>"No Menu to show"</p>
+              filtered.length === 0 ? <p className="pb-20">No Menu to show</p>
               :
               filtered.map((menu, i) => 
               <div className="w-88 aspect-[1/1] xl:w-72 lg:w-72 md:w-60 sm:w-40 mb-20 md:mb-12 cursor-pointer" key={i}>

@@ -32,7 +32,7 @@ const Navbar = ({heroapi: {socialLinks}}) => {
         <div className={mobileMenu ? `fixed top-0 right-0 w-[60vw] h-full font-white bg-black blur-effect-theme transition translate-x-0 ease-in-out duration-1000` : `translate-x-full`}>
         <ul className={mobileMenu ? `absolute top-20 left-10 flex flex-col mt-5 lg:text-md md:text-md xsm:text-sm gap-8` : `hidden`}>
           <li className="duration-200 hover:scale-110">About</li>
-          <li className="duration-200 hover:scale-110">Menu</li>
+          <Link to="/menu"><li className="duration-200 hover:scale-110">Menu</li></Link>
           <li className="duration-200 hover:scale-110">Booking</li>
           <li className="duration-200 hover:scale-110">Location</li>
           <li className="duration-200 hover:scale-110">Contact</li>
